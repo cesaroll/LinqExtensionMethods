@@ -11,5 +11,5 @@ public partial class Customer
 
     public string Email { get; set; } = null!;
 
-    public int Age { get; set; }
+    public int ?Age { get; set; }
 }

@@ -18,6 +18,9 @@ public class Application
 	{
 		// await _sedDb.AddCustomers();
 
-		await _customersService.DisplayCustomers();
+		// await _customersService.DisplayAllCustomers();
+		//await _customersService.DisplayAllAdultCustomers();
+		// await _customersService.DisplayAllCustomersWithName("Cesar");
+		await _customersService.DisplayAllCustomersWithName("");
 	}
 }
