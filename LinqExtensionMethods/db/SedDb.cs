@@ -2,9 +2,9 @@ using LinqExtensionMethods.db.Models;
 
 namespace LinqExtensionMethods.db;
 
-public static class Sed
+public class SedDb
 {
-	public static async Task AddCustomers()
+	public async Task AddCustomers()
 	{
 		using (var db = new PostgresContext())
 		{
